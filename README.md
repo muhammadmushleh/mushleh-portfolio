@@ -1,41 +1,15 @@
-# Portfolio Muhammad Mushleh
+# Portfolio Muhammad Mushleh — pembaruan 2026
+Website statis HTML/CSS/JS, tanpa framework. Buka index.html untuk pratinjau lokal.
 
-Website portfolio satu halaman yang dibuat menggunakan HTML, CSS, dan JavaScript biasa. Tidak membutuhkan framework atau proses instalasi.
+## Memperbarui repository yang sudah ada
+1. Cadangkan repository dengan Code > Download ZIP.
+2. Ekstrak paket pembaruan. Unggah index.html, style.css, script.js dan README.md ke root repository yang sama, menggantikan file lama.
+3. Masuk folder assets di GitHub. Unggah isi folder assets dari paket: CV_Muhammad_Mushleh.pdf dan tiga pratinjau WebP. Foto profil juga disertakan agar paket bisa dibuka lokal; boleh pertahankan foto asli dari repository jika sudah sesuai.
+4. Commit changes ke main. GitHub Pages yang sudah aktif akan membangun ulang website. Cek Actions dan buka URL yang sama setelah deployment berhasil.
 
-## Cara membuka website
-
-1. Ekstrak file ZIP.
-2. Buka folder `mushleh-portfolio` menggunakan Visual Studio Code.
-3. Buka file `index.html` di browser. Untuk pengalaman pengembangan yang lebih nyaman, gunakan ekstensi Live Server di VS Code.
-4. Pastikan folder `assets` tetap berada satu tingkat dengan `index.html` agar foto dan CV dapat tampil/diunduh.
-
-## Struktur folder
-
-```text
-mushleh-portfolio/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── assets/
-    ├── profile-muhammad-mushleh.png
-    └── CV_Muhammad_Mushleh.pdf
-```
-
-## Bagian yang bisa diedit
-
-- `index.html`: nama, deskripsi, pendidikan, pengalaman, keahlian, nomor WhatsApp, dan email.
-- `style.css`: warna, ukuran, jarak, dan tampilan responsif.
-- `script.js`: menu navigasi, penanda menu aktif, dan animasi saat halaman digulir.
-- `assets/`: foto profil dan file CV.
-
-## Mengunggah ke GitHub Pages
-
-1. Buat repository baru di GitHub, misalnya `mushleh-portfolio`.
-2. Unggah seluruh isi folder ini ke repository. Pastikan `index.html` berada di direktori utama repository.
-3. Buka **Settings → Pages**.
-4. Pada bagian **Build and deployment**, pilih **Deploy from a branch**.
-5. Pilih branch `main` dan folder `/ (root)`, lalu simpan.
-6. Tunggu proses publikasi selesai. GitHub akan menampilkan alamat website pada halaman Pages.
-
-Catatan: foto dan CV sudah disertakan di folder `assets`. Jangan memindahkan atau mengganti nama file tersebut tanpa menyesuaikan alamatnya di `index.html`.
+## Verifikasi
+- CV yang dipasang adalah CV ATS terbaru dari percakapan.
+- Periode PT SOA Cipta Jaya hanya menyebut bulan mulai, karena tanggal akhir belum dikonfirmasi.
+- Sertifikat adalah gambar pratinjau dengan data sensitif dan tanda tangan ditutup permanen pada piksel, bukan PDF asli. Skripsi lengkap dan data responden tidak dipublikasikan.
+- Foto profil di paket diambil dari foto pada CV kreatif SIAPkerja yang diunggah pengguna; foto lama di GitHub dapat dipertahankan.
+- Pastikan kompetensi teknis lama masih dikuasai sebelum publikasi.
